@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo cáo Ô nhiễm Đất</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #444;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #2c3e50;
+            color: #ffff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #45a049;
+            text-decoration: underline;
+        }
+
+        .banner {
+            width: 100%;
+            height: 400px;
+            background-image: url('https://thumuaphelieuvn.com/wp-content/uploads/2020/09/%C4%91%E1%BA%A5t-m%E1%BA%B7n.png');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .banner::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .banner-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            text-align: center;
+            z-index: 1;
+        }
+
+        .banner-text h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .banner-text p {
+            font-size: 1.2em;
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .banner {
+                height: 300px;
+            }
+
+            .banner-text h2 {
+                font-size: 2em;
+            }
+
+            .banner-text p {
+                font-size: 1em;
+            }
+
+            section {
+                padding: 15px;
+            }
+
+            h2 {
+                font-size: 2.0em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Báo cáo Ô nhiễm Đất</h1>
+        <nav>
+            <ul>
+                <li><a href="#overview">Tổng Quan</a></li>
+                <li><a href="#data">Dữ Liệu</a></li>
+                <li><a href="#impact">Tác Động</a></li>
+                <li><a href="#solutions">Giải Pháp</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Image -->
+    <div class="banner">
+        <div class="banner-text">
+            <h1>Hãy Cùng Nhau Hành Động Để Bảo Vệ Môi Trường Đất</h1>
+        </div>
+    </div>
+
+    <main>
+        <section id="overview">
+            <h2>Tổng Quan Về Ô Nhiễm Môi Trường Đất</h2>
+            <p>
+                Ô nhiễm đất là sự suy thoái của đất do sự hiện diện của các chất hóa học độc hại hoặc những thay đổi khác trong môi trường đất tự nhiên. Nó thường bắt nguồn từ các hoạt động công nghiệp, hóa chất nông nghiệp hoặc xử lý chất thải không đúng cách. Với đặc điểm đất đồi núi chiếm 3/4 lãnh thổ lại nằm trong vùng nhiệt đới mưa nhiều và tập trung, nhiệt độ không khí cao, các quá trình khoáng hóa diễn ra rất mạnh trong đất nên dễ bị rửa trôi, xói mòn, nghèo chất hữu cơ và các chất dinh dưỡng dẫn đến thoái hóa đất. Đất đã bị thoái hóa rất khó có thể khôi phục lại trạng thái màu mỡ ban đầu
+            </p>
+        </section>
+
+        <section id="data">
+            <h2>Dữ liệu Ô nhiễm Môi Trường Đất</h2>
+            <p>
+                Nhiễm mặn: Do muối trong nước biển, nước triều hay từ các mỏ muối,… nồng độ áp suất thẩm thấu cao gây hạn sinh lí cho thực vật – Gley hóa trong đất sinh ra nhiều chất độc cho sinh thái. 
+                <br>Nguyên nhân tự nhiên</br>
+ <br>Nước biển xâm nhập: Ở các vùng ven biển, nước biển có thể xâm nhập vào đất liền do thủy triều, sóng biển hoặc biến đổi khí hậu làm mực nước biển dâng cao. Nước biển mang theo muối, làm tăng độ mặn của đất và nước ngầ</br>
+<br>Đất mặn tự nhiên: Một số vùng đất có hàm lượng muối tự nhiên cao do quá trình phong hóa đá hoặc trầm tích biển cổ.</br>
+<br>Bốc hơi nước: Ở các vùng khô hạn, lượng mưa ít, nước bốc hơi nhanh chóng, để lại muối trên bề mặt đất.</br>
+Nguyên nhân do con người
+<br>Thủy lợi không hợp lý: Việc xây dựng hệ thống thủy lợi không hợp lý có thể dẫn đến tình trạng tưới tiêu quá mức, làm tăng mực nước ngầm và đẩy muối lên bề mặt đất.</br>
+ <br>Phá rừng ngập mặn: Rừng ngập mặn có vai trò quan trọng trong việc ngăn chặn sự xâm nhập của nước biển và giảm thiểu nguy cơ nhiễm mặn. Việc phá rừng ngập mặn làm mất đi "bức tường" tự nhiên này, khiến đất dễ bị nhiễm mặn hơn.</br>
+            </p>
+            <p>
+  Chất thải công nghiệp: Khai thác mỏ, sản xuất hóa chất, nhựa dẻo, nylon, các loại thuốc nhuộm, các kim loại nặng tích tụ trên lớp đất mặt làm đất bị chai, xấu, thoái hóa không canh tác tiếp được.
+            </p>
+            <p>Nhiễm Phèn:
+                <br>Nguồn gốc tự nhiên:</br>
+ <br> Quá trình oxy hóa pyrit: Đất phèn thường hình thành ở các vùng trũng, ngập mặn, nơi có chứa nhiều khoáng chất pyrit. Khi pyrit tiếp xúc với oxy trong không khí, nó sẽ bị oxy hóa và tạo ra axit sulfuric, làm đất chua và giải phóng các ion kim loại nặng như sắt và nhôm.
+ Nước biển dâng: Sự dâng cao của mực nước biển có thể xâm nhập vào đất liền, mang theo muối sunfat vào đất. Khi nước biển rút đi, muối sunfat này có thể tương tác với các khoáng chất trong đất, tạo ra axit sulfuric và gây nhiễm phèn.</br>
+<br>Hoạt động của con người:</br>
+ <br> Sử dụng phân bón và thuốc trừ sâu không hợp lý: Việc sử dụng quá nhiều phân bón chứa lưu huỳnh hoặc thuốc trừ sâu có thể làm tăng lượng axit trong đất và gây nhiễm phèn.
+  Canh tác không đúng cách: Việc canh tác không đúng cách, chẳng hạn như đào xới đất quá sâu hoặc không bón vôi để trung hòa độ axit, có thể làm gia tăng quá trình oxy hóa pyrit và gây nhiễm phèn.
+  Xả thải công nghiệp và sinh hoạt: Nước thải từ các khu công nghiệp và sinh hoạt có thể chứa các chất ô nhiễm như kim loại nặng và axit, gây ô nhiễm đất và làm gia tăng độ chua của đất.</br>
+<br>Các yếu tố khác:</br>
+ <br>Biến đổi khí hậu: Biến đổi khí hậu có thể làm thay đổi lượng mưa và nhiệt độ, ảnh hưởng đến quá trình oxy hóa pyrit và gây nhiễm phèn.
+  Địa hình: Địa hình thấp trũng, ngập úng dễ bị nhiễm phèn hơn so với các vùng đất cao hơn.</br>
+
+                
+            </p>
+        </section>
+
+        <section id="impact">
+            <h2>Tác Động Của Ô Nhiễm Môi Trường Đất</h2>
+            <p>
+               Tác Động Chính Của Ô Nhiễm Môi Trường Đất Bao Gồm: 
+            </p>
+            <ul>
+                <li><strong>Ảnh hưởng đến đất đai:</strong> Ô nhiễm môi trường đất gây ra sự biến đổi trong cấu trúc đất, làm cho đất trở nên dễ bị xói mòn và mất đi các chất dinh dưỡng quan trọng, đặc biệt khi có mưa lớn. Những hậu quả nghiêm trọng bao gồm việc giảm khả năng sử dụng và khai thác của đất, gây ra sự suy thoái môi trường sống cho cây trồng và động vật.</li>
+                <li><strong>Ảnh hưởng đến sức khỏe:</strong> Tiếp xúc dài hạn với môi trường đất bị ô nhiễm có thể gây ra các bệnh lý nguy hiểm như ung thư, bệnh máu, và các vấn đề về gan. Trẻ em tiếp xúc với đất ô nhiễm có nguy cơ cao hơn về các bệnh dị tật bẩm sinh, rối loạn hệ hô hấp và các bệnh ngoài da.</li>
+                <li><strong>Ảnh hưởng đến nguồn nước:</strong> Ô nhiễm môi trường đất tác động đến các mạch nước ngầm theo cơ chế thẩm thấu. Điều này gây ra mối đe dọa đáng kể đối với nguồn nước ngầm, nguồn cung cấp nước chính cho sinh hoạt hằng ngày của con người.</li>
+                <li><strong>Ảnh hưởng tới động vật:</strong>Ô nhiễm môi trường đất buộc các loài động vật phải di chuyển tới các khu vực khác để sinh sống. Quá trình này không chỉ gây ra sự thất thường trong hệ sinh thái, mà còn dẫn đến sự giảm số lượng động vật và thậm chí dẫn đến tuyệt chủng của một số loài không thể thích ứng với môi trường mới.
+
+</li>
+            </ul>
+        </section>
+
+        <section id="solutions">
+            <h2>Giải Pháp Giảm Ô Nhiễm Môi Trường Đất</h2>
+            <ul>
+                <li><strong>Tạo nhận thức về môi trường: </strong> Trước hết, cần tăng cường công tác giáo dục và tạo ra sự nhận thức về môi trường trong cộng đồng. Người dân cần hiểu rõ về hậu quả của ô nhiễm môi trường đất và hành vi của họ cách tác động đến môi trường. Việc này có thể giúp nâng cao ý thức bảo vệ môi trường và khuyến khích họ tham gia vào các hoạt động bảo vệ môi trường.</li>
+                <li><strong>Hạn chế sử dụng hóa chất trong nông nghiệp:</strong>Bộ Nông Nghiệp nên khuyến khích người nông dân sử dụng phân bón hữu cơ thay vì các loại thuốc trừ sâu và hóa chất độc hại khác. Điều này giúp giảm thiểu các độc tố trong đất và nguồn nước ngầm.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Trang Web Được Thiết Kế Bởi Nhóm 7</p>
+    </footer>
+</body>
+</html>
